@@ -195,7 +195,7 @@ SparkSql由Sql逻辑转为Rdd的代码是在SparkPlan的doExecute方法实现的
 
 
 
-## 7 executeQuery
+## 7 SparkPlan.executeQuery
 
    对SparkPlan的DoExecute()的包装
 
