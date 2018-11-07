@@ -1,8 +1,8 @@
 # Spark-sql与Spark-core的结合
 
-​                                                                                                                         刘凯 2018-11-07
+​                                                                                                    刘凯 2018-11-07
 
- 2.0开始DataFrame已经成为DataSet[Row]的一个Type。
+ 从spark2.0开始引入DataSet的api，DataFrame成为DataSet[Row]的一个Type。
 
  以DataSet的show方法的源码来一步步解析spark-sql是如何与spark-core相结合的：
 
